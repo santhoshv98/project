@@ -96,8 +96,8 @@ jobs:
         runs-on: ubuntu-latest
         timeout-minutes: 20
 
-        environment:
-            name: production
+        # environment:
+        #     name: production
 
         concurrency:
             group: deploy-frontend
